@@ -1,0 +1,501 @@
+patient_id,age,sex,height_cm,weight_kg,ethnicity,icu_unit,admission_type,has_diabetes2,has_hypertension,has_ckd,has_copd,has_immunosuppression,length_of_stay_hours,sepsis_label,sepsis_onset_hour,mortality_in_hosp
+P100000,86,F,155,75.4,Hispanic/Latino,Mixed ICU,Emergency,0,0,0,0,0,98,0,,0
+P100001,64,M,172,84.9,White,Mixed ICU,Urgent,0,1,0,0,0,111,0,,1
+P100002,72,F,177,93.9,White,Neuro ICU,Emergency,1,0,0,0,1,38,1,11.0,0
+P100003,61,F,174,98.9,Black,SICU,Emergency,0,1,0,0,0,73,0,,0
+P100004,59,M,176,71.7,White,SICU,Elective,0,0,0,0,0,22,0,,0
+P100005,49,F,156,81.0,White,SICU,Emergency,0,0,0,0,0,65,0,,0
+P100006,69,F,173,59.1,White,CCU,Emergency,0,1,0,0,0,102,0,,0
+P100007,48,F,167,83.6,White,MICU,Emergency,0,0,0,0,0,56,0,,0
+P100008,73,M,165,79.1,White,Mixed ICU,Urgent,1,1,0,0,0,63,1,15.0,0
+P100009,80,M,179,77.9,Hispanic/Latino,SICU,Elective,1,1,0,0,0,31,1,14.0,0
+P100010,68,M,185,95.4,Other/Unknown,CCU,Emergency,0,0,0,1,0,49,1,6.0,0
+P100011,57,F,188,85.8,White,MICU,Emergency,0,1,1,0,0,135,0,,0
+P100012,70,F,183,72.2,Black,MICU,Emergency,0,0,0,1,0,75,0,,0
+P100013,57,F,169,73.9,Hispanic/Latino,SICU,Emergency,0,1,0,0,0,36,0,,0
+P100014,78,M,174,64.7,White,SICU,Emergency,1,1,0,0,1,61,0,,0
+P100015,31,M,178,94.9,Hispanic/Latino,MICU,Urgent,0,1,0,0,0,14,0,,0
+P100016,56,M,171,61.7,Black,MICU,Elective,1,0,1,0,0,35,0,,0
+P100017,28,M,171,94.4,Other/Unknown,MICU,Emergency,0,1,0,0,0,121,1,6.0,0
+P100018,37,F,178,66.3,Other/Unknown,SICU,Elective,0,0,0,0,0,67,0,,0
+P100019,85,F,169,70.3,White,MICU,Urgent,0,1,0,1,0,140,0,,0
+P100020,77,F,163,64.4,White,Mixed ICU,Emergency,0,1,1,0,1,69,0,,0
+P100021,50,M,166,99.1,White,MICU,Emergency,1,0,0,0,0,71,0,,0
+P100022,36,F,176,92.9,White,MICU,Urgent,0,0,0,0,0,95,0,,0
+P100023,18,F,170,77.2,White,MICU,Emergency,0,0,0,1,0,12,0,,0
+P100024,53,F,173,92.8,Other/Unknown,SICU,Urgent,1,1,0,0,0,79,0,,0
+P100025,90,M,177,50.1,White,SICU,Emergency,0,0,0,0,0,70,0,,0
+P100026,69,M,166,76.4,White,SICU,Emergency,0,1,0,0,0,125,1,21.0,0
+P100027,52,M,178,126.7,Other/Unknown,Mixed ICU,Elective,0,0,0,0,0,107,0,,0
+P100028,70,M,174,87.2,White,MICU,Emergency,0,1,0,0,0,31,0,,0
+P100029,35,F,158,70.9,White,CCU,Emergency,0,1,0,0,0,117,0,,0
+P100030,57,F,184,105.9,Other/Unknown,MICU,Emergency,0,0,0,0,0,63,0,,0
+P100031,64,F,165,90.9,White,MICU,Emergency,1,1,0,0,0,39,0,,0
+P100032,61,M,153,40.0,White,SICU,Emergency,0,0,0,0,0,79,0,,0
+P100033,75,M,160,45.8,White,MICU,Emergency,0,0,0,0,0,65,1,13.0,0
+P100034,68,M,160,74.9,Other/Unknown,SICU,Emergency,1,1,1,0,0,127,0,,1
+P100035,73,M,171,69.3,White,CCU,Emergency,0,0,0,0,0,84,0,,0
+P100036,50,M,167,100.0,White,CCU,Emergency,1,0,0,0,0,79,0,,0
+P100037,77,M,167,72.8,White,SICU,Urgent,0,0,1,0,0,104,0,,0
+P100038,90,M,176,50.8,White,SICU,Emergency,1,1,0,1,1,111,0,,0
+P100039,46,F,173,61.0,Other/Unknown,MICU,Emergency,1,1,0,0,0,100,1,8.0,0
+P100040,47,M,173,47.9,White,MICU,Emergency,1,0,0,0,0,123,0,,0
+P100041,85,F,174,80.5,Other/Unknown,MICU,Emergency,0,0,0,0,0,94,0,,0
+P100042,59,F,176,83.2,White,SICU,Elective,1,1,0,0,0,78,0,,0
+P100043,86,M,149,56.5,White,Mixed ICU,Emergency,0,1,0,0,0,117,0,,0
+P100044,54,F,166,95.0,Other/Unknown,MICU,Emergency,1,0,0,0,0,69,1,15.0,0
+P100045,87,F,148,77.1,White,SICU,Urgent,0,0,1,0,0,73,0,,0
+P100046,64,M,170,78.0,White,CCU,Elective,0,0,0,0,0,134,0,,0
+P100047,66,M,170,46.2,Other/Unknown,Neuro ICU,Elective,0,0,0,0,0,130,0,,0
+P100048,89,F,180,102.7,White,SICU,Urgent,0,1,1,1,0,72,0,,0
+P100049,56,M,182,103.8,White,SICU,Urgent,0,0,0,0,0,56,0,,1
+P100050,46,M,172,88.3,Other/Unknown,CCU,Emergency,1,1,0,0,1,125,0,,0
+P100051,54,M,165,92.3,White,Neuro ICU,Emergency,0,0,0,0,0,101,0,,0
+P100052,70,F,175,64.3,White,MICU,Emergency,1,0,0,0,0,83,0,,0
+P100053,35,F,165,109.0,White,Mixed ICU,Emergency,0,0,0,0,0,60,1,14.0,0
+P100054,73,F,170,64.3,White,MICU,Emergency,1,1,0,0,0,84,0,,0
+P100055,53,F,180,105.3,White,Neuro ICU,Emergency,1,0,0,0,0,71,0,,0
+P100056,82,M,164,48.1,Asian,MICU,Emergency,0,0,1,0,0,48,0,,0
+P100057,21,F,178,71.0,White,MICU,Elective,0,0,1,0,0,77,0,,0
+P100058,49,M,177,116.2,Asian,MICU,Elective,1,0,0,1,0,82,0,,0
+P100059,33,M,160,67.7,White,MICU,Emergency,0,1,0,0,1,58,0,,0
+P100060,48,F,180,107.0,White,MICU,Emergency,0,0,0,0,0,105,0,,0
+P100061,66,M,177,92.2,White,MICU,Emergency,0,1,1,0,0,118,0,,0
+P100062,59,F,171,80.0,Asian,SICU,Emergency,1,0,0,1,0,107,0,,0
+P100063,58,F,162,95.0,White,MICU,Urgent,0,0,1,0,0,62,0,,0
+P100064,59,F,161,68.9,White,CCU,Urgent,1,0,0,0,0,99,0,,0
+P100065,65,M,165,47.1,Other/Unknown,Mixed ICU,Urgent,0,1,0,0,0,75,0,,0
+P100066,45,M,175,71.0,Black,SICU,Urgent,1,1,0,0,0,28,0,,0
+P100067,74,M,160,80.1,White,MICU,Urgent,0,1,0,0,0,96,0,,0
+P100068,73,M,174,92.0,Other/Unknown,MICU,Emergency,0,1,0,1,0,77,1,19.0,1
+P100069,69,M,158,46.4,White,Mixed ICU,Emergency,1,0,1,0,0,165,0,,0
+P100070,71,M,168,66.8,White,MICU,Emergency,1,1,0,0,0,124,0,,0
+P100071,67,M,171,71.7,White,MICU,Emergency,1,1,0,0,0,98,0,,0
+P100072,90,F,194,97.1,White,Mixed ICU,Emergency,1,0,0,1,0,81,0,,0
+P100073,61,M,156,48.1,White,Mixed ICU,Emergency,0,1,0,1,0,78,0,,0
+P100074,57,M,185,82.9,Hispanic/Latino,MICU,Urgent,0,0,0,0,0,36,0,,0
+P100075,49,M,171,69.1,White,SICU,Emergency,0,1,1,0,0,12,0,,0
+P100076,44,M,174,98.8,Hispanic/Latino,SICU,Urgent,0,0,1,0,0,41,1,36.0,1
+P100077,41,F,171,96.1,Other/Unknown,CCU,Elective,0,0,0,0,0,70,0,,0
+P100078,47,M,174,82.1,Black,MICU,Emergency,1,1,0,0,0,12,0,,0
+P100079,61,F,168,72.4,Asian,MICU,Emergency,0,0,0,0,0,52,1,15.0,0
+P100080,68,F,185,98.7,Asian,SICU,Emergency,0,1,1,0,0,63,1,27.0,1
+P100081,63,M,165,62.9,Other/Unknown,MICU,Emergency,0,1,0,0,0,64,0,,0
+P100082,49,F,181,69.2,White,SICU,Emergency,0,1,0,0,0,48,0,,0
+P100083,77,M,164,60.1,White,MICU,Urgent,0,1,1,1,0,60,0,,0
+P100084,75,M,169,69.1,White,Mixed ICU,Emergency,0,1,1,0,0,134,0,,0
+P100085,59,M,159,53.1,White,Neuro ICU,Emergency,0,1,0,0,0,96,0,,0
+P100086,51,F,175,88.7,White,SICU,Elective,0,1,0,0,0,52,0,,0
+P100087,71,M,184,109.6,Black,CCU,Emergency,1,0,0,1,0,70,1,29.0,0
+P100088,65,M,169,52.8,White,MICU,Emergency,0,1,0,0,0,71,0,,0
+P100089,37,M,168,79.5,Other/Unknown,SICU,Emergency,0,0,0,1,0,44,0,,0
+P100090,61,M,159,67.5,White,MICU,Emergency,0,1,0,0,0,44,0,,0
+P100091,66,F,168,84.8,White,Neuro ICU,Emergency,0,1,0,0,0,108,0,,0
+P100092,47,M,154,66.2,White,Neuro ICU,Emergency,0,0,0,0,0,57,1,7.0,0
+P100093,65,M,161,50.0,White,Mixed ICU,Emergency,1,0,0,0,0,33,0,,0
+P100094,37,M,172,60.4,White,Mixed ICU,Emergency,0,1,0,0,0,70,0,,0
+P100095,85,F,183,94.4,White,Mixed ICU,Emergency,0,0,1,0,0,76,0,,0
+P100096,83,M,198,134.0,White,MICU,Emergency,0,0,0,0,0,12,0,,0
+P100097,58,M,164,43.0,White,Mixed ICU,Emergency,1,0,1,0,0,71,0,,0
+P100098,68,M,184,101.8,White,SICU,Emergency,0,1,0,0,0,103,0,,0
+P100099,21,F,172,104.0,White,MICU,Emergency,0,0,0,0,0,88,0,,0
+P100100,42,F,168,76.4,White,SICU,Emergency,1,0,0,0,0,152,0,,0
+P100101,57,F,174,94.8,White,MICU,Emergency,0,0,0,0,0,117,0,,1
+P100102,44,M,171,69.5,White,MICU,Emergency,0,1,0,1,0,124,0,,0
+P100103,74,F,171,79.8,White,MICU,Urgent,0,0,0,1,0,173,0,,0
+P100104,90,F,166,50.4,White,MICU,Emergency,0,0,0,0,0,99,0,,0
+P100105,42,F,156,40.0,Hispanic/Latino,SICU,Urgent,1,0,0,0,0,78,0,,0
+P100106,48,M,155,80.9,Other/Unknown,Mixed ICU,Emergency,0,0,0,0,0,107,0,,0
+P100107,66,M,177,69.2,Other/Unknown,SICU,Emergency,0,0,0,0,0,52,0,,0
+P100108,89,M,167,70.5,White,SICU,Elective,0,1,0,1,0,76,0,,0
+P100109,41,F,164,52.9,White,MICU,Elective,0,0,0,0,0,49,0,,0
+P100110,66,M,170,56.5,White,SICU,Elective,1,0,0,0,0,86,1,21.0,0
+P100111,90,M,178,85.4,Hispanic/Latino,MICU,Emergency,0,0,0,0,0,49,0,,0
+P100112,34,M,172,69.9,Hispanic/Latino,Neuro ICU,Elective,0,0,0,0,0,47,0,,0
+P100113,40,F,163,80.4,Other/Unknown,MICU,Emergency,0,1,0,0,0,87,0,,0
+P100114,55,M,182,101.7,Other/Unknown,CCU,Emergency,0,0,0,0,0,67,0,,0
+P100115,53,F,186,103.5,White,CCU,Emergency,0,0,0,0,0,12,0,,0
+P100116,76,F,175,90.1,Hispanic/Latino,SICU,Newborn,1,1,0,0,0,20,0,,0
+P100117,66,F,180,121.4,Hispanic/Latino,Neuro ICU,Emergency,0,0,0,1,0,31,0,,0
+P100118,32,M,182,71.5,White,MICU,Elective,0,0,0,0,0,40,0,,0
+P100119,71,F,181,90.7,Other/Unknown,Mixed ICU,Emergency,1,0,1,1,0,87,0,,1
+P100120,52,F,176,107.8,White,CCU,Elective,0,0,1,1,0,80,0,,0
+P100121,84,F,176,110.2,Other/Unknown,Neuro ICU,Elective,0,0,0,0,0,110,0,,0
+P100122,51,M,175,59.6,Hispanic/Latino,SICU,Urgent,0,0,0,1,0,99,1,19.0,0
+P100123,51,M,159,66.0,White,Neuro ICU,Emergency,1,0,0,0,0,111,0,,0
+P100124,71,M,177,113.3,Black,Mixed ICU,Emergency,0,0,1,0,0,94,0,,0
+P100125,75,M,156,75.6,White,MICU,Emergency,0,0,1,0,0,80,0,,0
+P100126,70,M,162,76.6,Hispanic/Latino,Neuro ICU,Emergency,0,0,0,0,0,112,0,,0
+P100127,33,M,183,89.4,Hispanic/Latino,CCU,Emergency,0,0,0,0,0,105,0,,1
+P100128,71,M,178,81.4,Black,SICU,Emergency,0,1,0,0,0,86,0,,0
+P100129,44,F,185,101.7,Other/Unknown,Mixed ICU,Emergency,0,0,0,0,0,118,0,,0
+P100130,66,M,167,73.9,White,MICU,Emergency,0,1,1,0,0,12,0,,0
+P100131,38,F,158,69.3,White,SICU,Emergency,0,0,0,0,0,62,0,,0
+P100132,70,F,168,80.4,White,MICU,Urgent,1,0,0,0,0,61,0,,0
+P100133,48,M,171,70.0,White,MICU,Emergency,0,0,0,0,0,113,1,21.0,0
+P100134,40,F,171,91.2,White,Neuro ICU,Urgent,0,0,0,1,0,129,0,,0
+P100135,74,M,181,149.0,White,MICU,Urgent,1,1,1,1,0,20,0,,0
+P100136,66,F,166,47.8,White,MICU,Emergency,1,1,0,0,0,123,0,,0
+P100137,52,M,174,90.7,White,MICU,Elective,0,0,0,0,0,30,0,,0
+P100138,87,F,160,60.0,Other/Unknown,SICU,Emergency,0,0,0,0,0,31,1,11.0,0
+P100139,55,M,175,96.4,White,Neuro ICU,Emergency,0,0,0,0,0,64,0,,0
+P100140,63,M,170,81.7,Other/Unknown,Mixed ICU,Emergency,0,0,0,0,0,61,0,,0
+P100141,67,M,163,86.5,White,MICU,Emergency,0,0,0,0,0,16,0,,0
+P100142,51,F,168,98.9,White,SICU,Emergency,0,0,1,0,0,95,0,,0
+P100143,70,F,168,82.3,White,SICU,Emergency,0,0,0,0,0,96,0,,0
+P100144,53,M,167,97.0,White,SICU,Urgent,0,1,0,0,0,110,1,20.0,0
+P100145,55,M,188,56.6,White,MICU,Emergency,0,1,0,0,0,56,0,,0
+P100146,85,M,169,107.2,White,MICU,Elective,0,0,0,1,0,71,0,,0
+P100147,44,M,168,85.4,White,SICU,Urgent,0,0,0,0,0,71,0,,0
+P100148,21,M,149,76.5,White,SICU,Emergency,0,1,0,0,0,133,0,,0
+P100149,89,M,161,53.6,Black,SICU,Emergency,1,1,0,0,0,12,1,9.0,0
+P100150,90,F,167,64.2,White,SICU,Urgent,0,0,0,0,0,38,0,,0
+P100151,55,F,163,76.7,Hispanic/Latino,Neuro ICU,Emergency,0,1,0,0,0,72,0,,0
+P100152,29,M,184,94.5,White,CCU,Emergency,0,0,0,0,0,33,0,,0
+P100153,57,M,168,83.8,Other/Unknown,MICU,Emergency,0,1,1,0,0,63,0,,1
+P100154,57,M,183,115.6,Hispanic/Latino,Neuro ICU,Urgent,0,1,1,0,0,67,0,,0
+P100155,59,F,171,50.9,Other/Unknown,Neuro ICU,Emergency,0,0,0,0,0,48,0,,0
+P100156,43,M,170,97.8,Hispanic/Latino,MICU,Emergency,0,1,0,0,0,74,0,,0
+P100157,72,F,169,80.1,White,SICU,Emergency,0,0,0,0,0,95,0,,0
+P100158,71,F,170,77.4,White,MICU,Emergency,0,1,1,0,0,63,0,,0
+P100159,37,F,187,67.0,White,CCU,Emergency,0,1,0,0,0,56,0,,0
+P100160,74,M,147,67.0,Hispanic/Latino,MICU,Elective,0,1,0,0,0,66,0,,0
+P100161,90,F,150,40.0,Black,CCU,Urgent,1,1,0,0,0,72,0,,0
+P100162,65,M,165,86.8,White,MICU,Emergency,0,0,1,1,0,12,0,,0
+P100163,56,M,170,55.0,Other/Unknown,SICU,Emergency,0,0,0,0,0,89,0,,0
+P100164,60,M,177,88.7,White,Mixed ICU,Emergency,0,0,0,0,0,56,0,,0
+P100165,72,M,175,83.6,Black,MICU,Emergency,0,1,0,0,0,117,0,,0
+P100166,33,F,166,96.5,Asian,Mixed ICU,Emergency,0,0,0,0,0,93,0,,0
+P100167,65,F,180,87.2,White,Mixed ICU,Emergency,0,1,1,0,0,114,0,,0
+P100168,55,M,180,77.2,Black,Mixed ICU,Emergency,1,0,0,1,0,36,0,,0
+P100169,90,F,172,73.8,Hispanic/Latino,MICU,Emergency,0,1,0,1,0,59,0,,1
+P100170,59,M,180,115.5,White,Neuro ICU,Emergency,0,0,0,0,0,27,0,,0
+P100171,90,M,173,93.4,White,MICU,Emergency,0,0,0,0,0,47,0,,0
+P100172,43,M,164,69.1,White,MICU,Emergency,0,0,0,0,0,117,0,,0
+P100173,72,F,177,83.3,Black,Mixed ICU,Urgent,0,0,0,0,0,126,1,35.0,0
+P100174,67,M,171,54.4,White,CCU,Elective,1,0,1,0,0,31,0,,0
+P100175,47,M,170,87.7,Other/Unknown,SICU,Urgent,0,1,0,0,0,56,0,,0
+P100176,65,M,185,59.7,Other/Unknown,MICU,Urgent,0,0,0,0,0,69,0,,0
+P100177,83,F,145,68.4,White,Neuro ICU,Emergency,1,0,0,0,0,93,0,,0
+P100178,56,F,156,70.0,White,CCU,Urgent,0,1,0,0,0,12,0,,0
+P100179,33,F,158,105.7,Black,SICU,Emergency,0,1,0,0,0,14,0,,0
+P100180,62,F,166,59.0,Asian,Mixed ICU,Emergency,0,0,0,0,0,90,0,,0
+P100181,47,F,167,76.4,White,MICU,Emergency,0,0,0,1,0,12,0,,0
+P100182,56,M,155,93.2,White,MICU,Emergency,0,0,0,0,0,56,0,,0
+P100183,61,M,160,90.0,White,SICU,Emergency,1,0,0,0,0,78,1,24.0,0
+P100184,33,F,161,61.8,Other/Unknown,Mixed ICU,Emergency,1,0,0,0,0,87,0,,0
+P100185,35,F,195,111.6,White,MICU,Elective,0,0,0,0,0,67,0,,0
+P100186,70,M,188,99.0,Other/Unknown,MICU,Elective,1,0,0,1,1,59,0,,0
+P100187,53,M,166,81.8,White,MICU,Emergency,0,0,1,1,0,102,0,,0
+P100188,18,F,166,65.6,Other/Unknown,Neuro ICU,Emergency,0,0,0,0,0,82,0,,0
+P100189,75,M,159,69.4,White,MICU,Elective,1,1,0,0,0,49,0,,0
+P100190,67,F,151,42.0,White,SICU,Emergency,1,1,0,0,0,73,0,,0
+P100191,50,M,169,82.3,Other/Unknown,Mixed ICU,Emergency,1,0,0,0,1,86,0,,0
+P100192,40,M,160,78.6,Other/Unknown,MICU,Emergency,1,1,0,0,0,134,0,,0
+P100193,76,F,169,76.1,White,SICU,Emergency,0,0,0,0,0,100,0,,0
+P100194,68,M,154,43.4,White,SICU,Emergency,0,0,0,0,0,116,0,,0
+P100195,90,M,162,89.0,White,Neuro ICU,Elective,0,1,0,0,0,50,0,,1
+P100196,69,F,171,88.3,White,MICU,Elective,1,0,0,0,0,53,0,,0
+P100197,69,F,174,71.6,White,MICU,Emergency,0,0,0,0,0,64,0,,0
+P100198,59,M,174,79.7,Other/Unknown,MICU,Emergency,1,0,0,0,0,67,0,,0
+P100199,76,M,157,46.8,White,CCU,Elective,1,0,0,0,0,36,0,,0
+P100200,73,F,179,70.0,Asian,CCU,Emergency,1,0,1,0,0,118,0,,0
+P100201,83,F,162,65.0,White,MICU,Emergency,0,1,0,0,0,104,0,,0
+P100202,53,M,176,109.6,White,MICU,Emergency,0,0,0,0,0,61,0,,0
+P100203,55,M,170,69.8,Black,Mixed ICU,Emergency,1,0,0,0,0,95,0,,0
+P100204,54,M,156,77.5,White,MICU,Emergency,1,1,0,0,0,80,1,7.0,0
+P100205,75,M,167,69.1,Black,MICU,Emergency,1,1,1,1,0,98,0,,0
+P100206,87,M,174,89.3,White,SICU,Emergency,0,0,0,0,0,24,0,,0
+P100207,54,F,176,84.1,Other/Unknown,MICU,Emergency,0,1,0,0,0,67,0,,0
+P100208,55,M,169,94.9,Hispanic/Latino,MICU,Emergency,0,0,1,0,0,70,0,,0
+P100209,67,M,185,84.8,Other/Unknown,SICU,Emergency,1,0,0,0,1,94,0,,0
+P100210,58,F,180,60.2,White,MICU,Urgent,0,0,0,0,0,49,0,,0
+P100211,78,F,167,55.0,White,SICU,Emergency,1,0,0,0,0,12,0,,0
+P100212,24,M,178,78.6,White,CCU,Emergency,0,0,0,0,0,33,0,,0
+P100213,48,F,189,73.2,White,SICU,Emergency,0,1,0,0,0,70,0,,0
+P100214,49,F,190,110.0,White,MICU,Urgent,0,1,0,0,0,74,0,,0
+P100215,23,F,158,62.9,White,Neuro ICU,Emergency,0,1,0,0,0,133,0,,0
+P100216,46,M,161,109.5,White,MICU,Urgent,1,0,0,0,0,93,0,,0
+P100217,46,M,185,60.1,White,CCU,Emergency,0,0,0,0,0,75,0,,0
+P100218,59,F,159,73.9,White,MICU,Emergency,0,1,0,0,0,71,0,,0
+P100219,81,M,157,52.3,White,CCU,Emergency,1,1,0,0,0,112,0,,1
+P100220,58,M,165,68.2,White,MICU,Emergency,0,1,0,0,0,51,1,21.0,0
+P100221,44,M,174,87.3,Black,MICU,Elective,1,0,0,0,1,67,1,34.0,0
+P100222,61,F,169,45.7,White,SICU,Urgent,0,0,1,0,1,33,0,,0
+P100223,80,F,163,78.2,White,MICU,Emergency,0,0,0,1,1,123,0,,0
+P100224,45,M,163,104.7,White,MICU,Urgent,0,0,0,0,0,86,0,,0
+P100225,47,F,163,67.2,Hispanic/Latino,CCU,Emergency,0,0,0,0,0,47,0,,0
+P100226,71,M,161,76.6,White,Neuro ICU,Emergency,0,0,0,0,0,68,0,,0
+P100227,58,M,193,127.2,Black,MICU,Emergency,1,0,0,0,0,90,0,,0
+P100228,73,F,173,80.9,Other/Unknown,Mixed ICU,Emergency,0,0,1,0,0,63,1,29.0,0
+P100229,62,M,179,78.5,White,Neuro ICU,Elective,0,0,0,1,0,53,1,14.0,0
+P100230,74,M,165,43.6,Other/Unknown,Neuro ICU,Emergency,0,1,0,0,0,48,0,,0
+P100231,44,M,168,89.9,Hispanic/Latino,CCU,Emergency,0,0,1,0,0,84,0,,0
+P100232,62,F,163,72.6,White,CCU,Emergency,1,1,0,0,0,59,0,,0
+P100233,58,F,145,46.1,White,SICU,Emergency,0,0,1,0,0,56,0,,0
+P100234,41,F,156,70.0,Asian,SICU,Emergency,1,1,0,0,0,24,1,33.0,0
+P100235,35,F,152,56.6,Other/Unknown,Mixed ICU,Emergency,0,1,0,0,0,75,0,,0
+P100236,74,M,148,54.4,White,MICU,Emergency,0,1,1,0,0,65,0,,0
+P100237,56,F,158,79.0,White,MICU,Emergency,0,1,0,1,1,60,0,,0
+P100238,45,M,183,66.9,Black,MICU,Emergency,0,1,0,0,0,79,0,,0
+P100239,60,M,170,99.1,White,Mixed ICU,Emergency,1,0,0,0,0,99,0,,0
+P100240,81,F,183,65.7,Hispanic/Latino,MICU,Emergency,0,1,0,0,0,97,0,,0
+P100241,23,F,174,72.7,White,CCU,Elective,0,1,0,0,0,92,0,,0
+P100242,37,M,178,125.3,Asian,Neuro ICU,Urgent,0,1,0,1,0,63,0,,0
+P100243,46,M,161,90.1,Other/Unknown,Mixed ICU,Emergency,0,1,0,0,0,52,0,,0
+P100244,87,F,175,87.5,Black,MICU,Urgent,1,0,0,1,0,34,0,,0
+P100245,67,F,177,70.0,Black,Neuro ICU,Emergency,1,0,0,1,0,51,0,,0
+P100246,75,F,164,66.8,Hispanic/Latino,Mixed ICU,Emergency,0,0,0,1,0,73,0,,0
+P100247,43,M,176,88.1,Other/Unknown,MICU,Elective,1,1,0,0,0,44,0,,0
+P100248,43,M,176,87.4,Other/Unknown,CCU,Elective,0,0,0,0,0,75,0,,0
+P100249,70,M,165,74.7,White,MICU,Elective,0,0,0,0,0,37,0,,0
+P100250,63,F,159,70.3,Black,SICU,Emergency,0,0,0,0,0,12,0,,1
+P100251,71,F,158,66.7,White,SICU,Emergency,0,1,0,0,0,101,0,,0
+P100252,59,M,171,56.6,Other/Unknown,MICU,Emergency,1,0,0,0,0,55,0,,0
+P100253,67,M,173,74.5,Black,MICU,Emergency,1,1,0,0,0,42,0,,0
+P100254,65,M,162,87.9,White,MICU,Emergency,0,0,0,1,1,33,0,,0
+P100255,75,F,170,57.2,White,MICU,Emergency,1,1,1,0,1,87,0,,0
+P100256,76,F,176,83.2,White,SICU,Emergency,1,0,1,1,0,121,0,,0
+P100257,34,M,176,71.5,Asian,MICU,Emergency,0,0,0,0,0,57,0,,0
+P100258,24,M,186,99.2,White,MICU,Emergency,0,1,1,0,0,64,0,,0
+P100259,79,F,183,86.0,White,CCU,Emergency,1,1,1,0,0,111,0,,1
+P100260,82,M,160,94.4,Other/Unknown,CCU,Emergency,1,0,0,0,0,12,0,,0
+P100261,45,F,187,108.5,Hispanic/Latino,SICU,Emergency,0,0,0,0,0,143,1,11.0,0
+P100262,30,M,165,54.8,White,Mixed ICU,Emergency,0,1,0,0,0,160,0,,0
+P100263,64,M,180,103.8,White,MICU,Emergency,0,1,0,0,0,12,1,13.0,0
+P100264,78,F,171,68.3,Other/Unknown,Neuro ICU,Emergency,0,1,0,0,0,68,0,,0
+P100265,90,M,166,67.6,Asian,MICU,Elective,0,1,0,0,0,46,1,10.0,0
+P100266,71,M,152,69.0,Black,CCU,Emergency,0,0,0,1,0,62,1,34.0,1
+P100267,56,M,168,70.7,White,Mixed ICU,Emergency,0,1,1,0,0,57,1,28.0,0
+P100268,47,M,154,79.1,White,Neuro ICU,Emergency,0,1,0,0,0,101,0,,0
+P100269,62,M,180,75.7,White,SICU,Urgent,0,0,0,0,0,68,0,,0
+P100270,57,M,185,83.1,Asian,SICU,Elective,0,0,0,1,0,39,0,,0
+P100271,45,M,162,63.1,White,MICU,Emergency,0,0,0,0,0,66,0,,0
+P100272,90,M,173,73.6,White,CCU,Emergency,0,1,1,0,0,91,0,,0
+P100273,90,F,163,91.9,Asian,CCU,Emergency,0,0,1,0,0,29,1,22.0,0
+P100274,81,F,164,85.5,Other/Unknown,Mixed ICU,Urgent,0,1,0,0,0,13,0,,0
+P100275,46,M,178,121.2,Hispanic/Latino,SICU,Emergency,0,1,0,0,0,144,0,,0
+P100276,77,M,170,120.2,White,MICU,Emergency,0,0,0,0,0,49,0,,1
+P100277,73,M,187,76.3,White,SICU,Newborn,0,1,0,0,0,67,0,,0
+P100278,70,F,165,77.4,White,MICU,Elective,0,0,1,0,0,58,0,,0
+P100279,83,F,180,67.9,White,MICU,Emergency,0,1,0,0,0,92,0,,0
+P100280,73,M,171,68.2,White,MICU,Emergency,0,0,0,1,0,136,0,,0
+P100281,75,M,178,76.7,White,CCU,Emergency,0,1,0,0,0,93,1,26.0,0
+P100282,73,M,166,59.7,Black,MICU,Emergency,1,0,0,0,0,17,0,,0
+P100283,68,M,170,62.7,Other/Unknown,MICU,Emergency,1,1,0,0,0,22,0,,0
+P100284,32,F,169,77.5,Other/Unknown,MICU,Urgent,0,0,0,0,0,58,0,,0
+P100285,63,M,162,54.3,White,Mixed ICU,Urgent,0,1,0,0,0,62,1,14.0,0
+P100286,53,M,177,103.6,White,CCU,Emergency,0,0,0,0,0,12,1,8.0,0
+P100287,40,M,177,70.5,White,MICU,Emergency,0,1,1,0,0,101,0,,0
+P100288,90,M,176,139.0,White,MICU,Emergency,0,1,0,0,0,33,0,,0
+P100289,90,M,185,86.6,White,SICU,Emergency,0,0,0,0,0,126,0,,0
+P100290,85,F,184,96.3,White,MICU,Elective,0,0,0,0,0,138,0,,0
+P100291,66,M,166,55.7,Hispanic/Latino,SICU,Emergency,0,1,0,1,0,63,0,,0
+P100292,85,F,174,115.8,White,MICU,Emergency,1,0,0,0,0,88,0,,0
+P100293,62,M,164,93.4,Other/Unknown,Mixed ICU,Emergency,1,0,0,0,0,28,0,,0
+P100294,65,F,170,86.1,White,MICU,Emergency,1,1,0,0,0,94,0,,0
+P100295,43,F,164,53.6,White,CCU,Emergency,0,0,0,0,0,54,0,,0
+P100296,69,F,186,101.2,White,MICU,Elective,0,1,0,1,0,33,1,32.0,0
+P100297,63,F,174,64.4,White,Mixed ICU,Elective,0,0,0,0,0,62,0,,0
+P100298,40,F,168,103.8,White,Mixed ICU,Emergency,0,0,0,0,0,55,0,,0
+P100299,61,F,182,108.8,Other/Unknown,CCU,Elective,0,0,0,0,0,60,0,,0
+P100300,61,F,148,62.6,White,SICU,Emergency,0,0,0,0,0,106,1,35.0,0
+P100301,90,M,150,40.0,White,MICU,Elective,0,0,0,1,0,44,0,,1
+P100302,77,M,178,70.0,Black,Neuro ICU,Emergency,1,0,1,0,0,134,0,,0
+P100303,62,M,171,93.9,White,CCU,Emergency,0,1,1,0,0,24,0,,0
+P100304,66,F,173,105.6,Black,MICU,Urgent,0,0,0,0,0,130,0,,0
+P100305,63,M,157,85.4,White,SICU,Emergency,0,1,0,0,0,35,1,7.0,0
+P100306,59,M,170,53.3,Hispanic/Latino,SICU,Emergency,0,0,0,0,0,72,0,,0
+P100307,44,F,190,107.6,White,Neuro ICU,Emergency,0,0,0,0,0,54,0,,0
+P100308,59,M,178,108.0,White,CCU,Emergency,0,1,0,0,0,60,0,,0
+P100309,49,M,172,53.4,Asian,SICU,Emergency,0,0,0,0,0,101,0,,0
+P100310,41,M,166,77.0,Other/Unknown,SICU,Emergency,0,0,0,0,0,126,0,,0
+P100311,71,M,166,81.7,White,MICU,Urgent,0,0,0,0,0,115,0,,0
+P100312,69,M,149,58.2,Black,MICU,Emergency,1,0,0,0,0,57,0,,0
+P100313,32,M,173,50.5,White,MICU,Emergency,0,1,0,0,0,79,0,,0
+P100314,60,M,178,82.5,White,CCU,Emergency,0,0,1,0,0,44,1,7.0,0
+P100315,79,M,154,61.7,White,MICU,Elective,0,1,0,0,0,36,1,23.0,0
+P100316,80,M,163,72.0,Asian,MICU,Emergency,0,0,0,1,0,31,1,7.0,0
+P100317,79,F,158,61.5,White,MICU,Emergency,0,1,0,0,0,56,0,,0
+P100318,63,M,160,64.9,Asian,MICU,Emergency,1,1,0,0,0,81,0,,0
+P100319,48,F,171,81.2,White,SICU,Emergency,0,1,0,0,0,12,0,,0
+P100320,44,F,149,68.1,Other/Unknown,MICU,Elective,0,1,0,0,1,70,1,28.0,0
+P100321,68,M,176,81.1,Hispanic/Latino,MICU,Emergency,0,1,0,0,0,127,0,,0
+P100322,68,M,178,80.9,White,CCU,Elective,0,0,0,0,0,112,0,,1
+P100323,84,M,167,79.6,White,MICU,Emergency,0,0,1,0,0,51,0,,0
+P100324,81,F,145,40.0,White,MICU,Emergency,0,1,0,1,1,22,0,,0
+P100325,60,F,160,79.0,Other/Unknown,MICU,Emergency,0,0,0,0,0,89,1,35.0,0
+P100326,41,F,182,92.7,White,Neuro ICU,Emergency,0,0,0,0,0,12,0,,0
+P100327,57,M,145,59.4,White,MICU,Emergency,0,0,0,0,0,112,0,,0
+P100328,66,F,167,94.2,White,CCU,Emergency,0,1,0,1,0,64,0,,0
+P100329,59,M,158,40.6,Hispanic/Latino,Mixed ICU,Emergency,0,1,1,1,0,138,0,,0
+P100330,52,F,178,51.2,White,SICU,Emergency,1,1,0,0,0,12,0,,0
+P100331,66,M,163,78.8,White,MICU,Emergency,0,0,0,0,0,105,1,14.0,0
+P100332,53,F,174,84.6,Other/Unknown,CCU,Emergency,0,0,0,0,0,68,0,,0
+P100333,51,F,176,89.9,White,SICU,Emergency,0,1,0,0,0,60,0,,0
+P100334,67,M,188,89.2,Hispanic/Latino,MICU,Emergency,0,0,0,0,0,23,0,,0
+P100335,55,F,168,90.3,White,SICU,Emergency,0,0,1,0,0,93,0,,0
+P100336,66,M,174,101.7,White,MICU,Emergency,0,1,0,0,0,96,0,,0
+P100337,67,F,155,74.2,Other/Unknown,MICU,Emergency,0,1,0,1,0,136,0,,0
+P100338,43,M,182,87.6,Black,MICU,Emergency,1,1,0,0,0,108,1,15.0,0
+P100339,54,F,162,42.0,Asian,MICU,Emergency,0,0,0,1,0,51,0,,0
+P100340,86,M,164,87.7,White,MICU,Emergency,0,1,0,0,0,36,0,,0
+P100341,42,F,170,102.1,White,SICU,Emergency,0,0,0,0,0,23,0,,0
+P100342,26,F,154,75.6,White,Mixed ICU,Emergency,0,0,0,0,0,125,0,,0
+P100343,30,F,172,67.2,White,MICU,Emergency,0,0,0,0,0,44,0,,0
+P100344,62,F,180,103.8,White,SICU,Urgent,0,0,0,0,0,125,1,32.0,0
+P100345,63,F,173,99.3,White,SICU,Emergency,0,0,0,1,0,91,0,,0
+P100346,60,F,154,88.6,White,MICU,Urgent,0,0,0,0,0,84,1,17.0,0
+P100347,83,M,169,65.0,White,MICU,Emergency,0,1,0,0,0,61,0,,0
+P100348,18,F,177,83.5,White,MICU,Emergency,1,0,0,0,0,96,0,,0
+P100349,69,M,151,74.1,White,MICU,Emergency,0,0,0,0,0,71,0,,0
+P100350,89,F,159,71.7,Other/Unknown,MICU,Emergency,0,0,0,0,0,59,0,,1
+P100351,43,M,179,68.2,Black,MICU,Urgent,1,0,0,0,0,97,1,13.0,0
+P100352,56,F,173,91.2,White,SICU,Emergency,0,1,0,0,0,67,0,,0
+P100353,49,F,174,95.3,Asian,MICU,Urgent,0,0,0,0,0,43,0,,0
+P100354,47,M,189,101.9,Other/Unknown,MICU,Emergency,0,0,0,0,0,94,0,,0
+P100355,56,M,175,89.8,White,MICU,Urgent,1,0,0,0,0,70,1,8.0,0
+P100356,86,F,177,82.9,White,SICU,Urgent,1,1,0,0,0,90,0,,0
+P100357,90,F,197,143.1,White,MICU,Emergency,0,1,0,0,1,56,0,,0
+P100358,56,M,168,63.8,White,SICU,Emergency,1,1,1,0,0,28,0,,0
+P100359,90,F,162,64.2,Hispanic/Latino,MICU,Emergency,0,0,1,0,0,134,1,32.0,0
+P100360,63,F,174,85.0,Other/Unknown,MICU,Emergency,1,0,0,0,0,128,0,,0
+P100361,90,M,174,100.7,White,Mixed ICU,Urgent,1,1,0,0,0,104,0,,0
+P100362,60,M,165,51.8,Hispanic/Latino,MICU,Emergency,1,1,0,0,0,58,1,34.0,0
+P100363,64,M,160,51.6,White,MICU,Emergency,0,1,1,1,0,61,0,,1
+P100364,68,F,193,59.6,Black,MICU,Emergency,0,0,0,0,1,122,0,,0
+P100365,90,M,173,84.4,Hispanic/Latino,Mixed ICU,Emergency,1,0,0,0,0,59,0,,0
+P100366,76,F,163,56.6,White,SICU,Urgent,0,1,0,1,0,49,0,,0
+P100367,50,F,179,82.3,White,SICU,Emergency,0,1,0,0,0,139,0,,0
+P100368,78,M,169,91.3,Black,Mixed ICU,Elective,1,1,0,0,0,70,0,,0
+P100369,56,F,167,67.4,Other/Unknown,MICU,Urgent,0,0,0,0,0,136,0,,0
+P100370,54,F,176,91.0,White,Mixed ICU,Emergency,0,0,0,0,0,22,0,,0
+P100371,77,M,157,64.6,White,MICU,Emergency,0,0,0,0,0,91,0,,0
+P100372,63,M,174,97.0,White,SICU,Emergency,0,0,1,0,0,147,0,,0
+P100373,67,M,189,110.2,Black,MICU,Emergency,0,1,0,0,0,73,0,,0
+P100374,62,M,175,73.0,Black,MICU,Emergency,0,1,0,0,0,62,0,,0
+P100375,68,M,166,74.4,Hispanic/Latino,Mixed ICU,Elective,1,1,0,0,0,30,0,,0
+P100376,69,F,165,93.3,Hispanic/Latino,MICU,Emergency,1,0,0,0,0,111,0,,0
+P100377,29,M,166,83.7,Other/Unknown,Mixed ICU,Urgent,0,0,0,0,0,44,0,,0
+P100378,73,M,167,54.7,Hispanic/Latino,MICU,Urgent,0,1,0,0,0,69,0,,1
+P100379,45,F,166,88.0,White,SICU,Elective,0,0,0,0,0,28,0,,0
+P100380,37,M,179,68.9,Black,Mixed ICU,Emergency,0,1,0,0,0,128,1,8.0,0
+P100381,61,F,153,85.4,White,MICU,Emergency,1,0,0,0,0,114,0,,0
+P100382,63,F,179,109.4,White,Mixed ICU,Emergency,0,1,0,0,0,71,0,,0
+P100383,50,M,166,81.9,Other/Unknown,SICU,Emergency,1,0,0,0,0,30,0,,0
+P100384,76,M,174,87.6,Asian,CCU,Emergency,0,1,0,0,1,127,0,,0
+P100385,39,F,159,67.6,Other/Unknown,MICU,Emergency,0,0,0,0,0,59,0,,0
+P100386,55,F,183,107.4,White,SICU,Emergency,1,1,0,0,0,32,0,,0
+P100387,52,F,182,85.4,White,CCU,Emergency,0,0,1,0,0,12,1,30.0,1
+P100388,61,M,180,95.3,White,SICU,Emergency,0,0,0,0,0,49,0,,0
+P100389,67,F,155,79.8,White,MICU,Emergency,0,1,1,0,0,20,0,,0
+P100390,45,F,178,78.0,White,MICU,Emergency,0,0,0,0,0,50,0,,0
+P100391,74,M,174,73.6,White,Neuro ICU,Elective,0,1,0,1,0,99,0,,0
+P100392,63,F,154,49.4,White,MICU,Emergency,0,0,1,0,0,58,1,10.0,0
+P100393,30,F,170,62.5,Other/Unknown,CCU,Urgent,0,0,0,0,0,85,0,,0
+P100394,29,M,174,51.6,White,Mixed ICU,Urgent,0,0,0,0,0,46,0,,0
+P100395,62,M,176,100.3,White,MICU,Emergency,1,0,0,0,0,74,0,,0
+P100396,58,F,172,114.9,Hispanic/Latino,MICU,Emergency,0,1,0,0,0,141,0,,0
+P100397,60,M,173,109.4,White,CCU,Emergency,1,0,1,0,0,59,0,,0
+P100398,62,M,185,62.4,Other/Unknown,MICU,Emergency,0,1,0,1,0,86,0,,0
+P100399,66,M,182,107.2,Asian,SICU,Emergency,0,0,0,0,0,16,0,,0
+P100400,78,M,145,76.8,White,CCU,Emergency,0,1,0,1,0,127,0,,0
+P100401,43,F,167,70.4,Asian,SICU,Urgent,1,0,0,0,0,55,0,,0
+P100402,42,F,168,80.7,Black,MICU,Urgent,0,0,0,1,0,110,0,,0
+P100403,43,M,152,40.0,Hispanic/Latino,CCU,Elective,1,0,0,0,0,68,0,,0
+P100404,67,F,171,86.6,Hispanic/Latino,SICU,Emergency,0,0,0,0,1,94,0,,0
+P100405,83,F,182,71.6,Asian,MICU,Emergency,0,0,0,0,0,96,0,,0
+P100406,55,M,159,73.8,Black,SICU,Urgent,0,1,0,0,0,56,0,,0
+P100407,19,F,173,55.8,White,Mixed ICU,Emergency,0,0,0,0,0,111,1,10.0,0
+P100408,33,M,161,81.0,Asian,SICU,Emergency,0,0,0,0,0,45,0,,0
+P100409,48,F,163,90.7,Other/Unknown,SICU,Emergency,0,0,0,0,0,100,0,,0
+P100410,53,F,185,79.7,Black,MICU,Emergency,0,1,0,0,0,58,0,,0
+P100411,55,F,165,57.7,Black,MICU,Emergency,0,0,0,0,0,85,0,,0
+P100412,63,M,175,49.0,White,MICU,Emergency,0,0,0,1,0,55,1,17.0,0
+P100413,57,F,151,60.2,Hispanic/Latino,MICU,Emergency,0,0,0,0,0,74,0,,0
+P100414,80,M,189,87.6,Other/Unknown,Mixed ICU,Emergency,0,1,1,0,0,33,0,,1
+P100415,51,M,176,57.9,White,MICU,Emergency,0,0,0,0,0,81,1,19.0,1
+P100416,47,M,168,86.7,White,Neuro ICU,Emergency,0,1,0,0,0,74,0,,0
+P100417,70,F,176,78.4,White,MICU,Emergency,0,1,1,0,0,53,0,,0
+P100418,36,M,156,52.4,White,MICU,Urgent,0,0,0,1,0,70,0,,0
+P100419,69,F,182,81.7,Black,MICU,Emergency,1,0,0,0,0,77,0,,0
+P100420,64,F,167,96.0,White,MICU,Emergency,0,0,0,0,0,50,0,,0
+P100421,59,M,168,89.2,White,Neuro ICU,Elective,0,0,0,0,0,67,0,,0
+P100422,89,M,165,74.1,Black,Mixed ICU,Emergency,1,1,0,0,0,36,0,,0
+P100423,51,M,164,85.3,Black,Mixed ICU,Elective,0,0,0,0,0,156,0,,0
+P100424,90,F,177,65.9,Black,MICU,Emergency,0,0,0,0,0,110,0,,0
+P100425,58,F,173,84.4,Asian,CCU,Emergency,1,1,0,0,0,82,0,,0
+P100426,40,M,177,90.5,Black,MICU,Emergency,1,0,0,0,0,114,0,,0
+P100427,63,F,170,72.8,Hispanic/Latino,Mixed ICU,Emergency,0,1,1,0,0,12,0,,0
+P100428,44,M,175,93.8,Black,SICU,Newborn,0,0,0,1,0,12,0,,0
+P100429,49,F,166,64.3,White,MICU,Elective,0,0,0,0,0,58,0,,0
+P100430,69,F,192,114.5,Black,MICU,Urgent,1,0,1,0,0,22,0,,1
+P100431,71,F,154,74.3,White,MICU,Urgent,1,1,0,0,0,63,0,,0
+P100432,51,F,183,53.6,White,MICU,Emergency,0,0,0,0,0,79,0,,0
+P100433,79,F,184,119.0,White,Mixed ICU,Elective,0,0,0,0,0,105,0,,0
+P100434,82,M,161,41.5,Other/Unknown,Neuro ICU,Emergency,0,1,0,0,0,31,0,,0
+P100435,86,M,192,89.6,Asian,Mixed ICU,Elective,0,1,0,0,0,86,0,,0
+P100436,71,M,180,110.7,White,MICU,Emergency,0,0,0,0,0,73,0,,0
+P100437,85,M,180,84.6,Black,SICU,Emergency,0,0,0,0,0,85,0,,0
+P100438,30,F,170,55.5,White,MICU,Elective,0,0,0,0,0,53,0,,0
+P100439,57,F,168,60.5,Asian,SICU,Elective,0,0,0,0,0,122,1,32.0,0
+P100440,47,F,168,96.4,Hispanic/Latino,MICU,Emergency,0,0,0,0,0,68,0,,0
+P100441,64,M,174,49.9,Black,MICU,Emergency,0,1,0,0,0,136,0,,0
+P100442,52,F,184,117.7,Black,SICU,Emergency,0,1,0,0,0,44,1,27.0,0
+P100443,59,M,172,81.9,White,MICU,Urgent,0,0,0,0,0,99,1,10.0,0
+P100444,90,M,161,54.0,White,SICU,Emergency,1,0,0,0,0,70,0,,0
+P100445,59,F,178,77.6,Other/Unknown,SICU,Emergency,0,0,0,0,0,60,0,,0
+P100446,69,F,179,70.2,Asian,MICU,Emergency,0,1,0,1,0,95,1,24.0,0
+P100447,58,F,177,104.0,White,Mixed ICU,Emergency,0,0,1,0,1,61,0,,0
+P100448,63,M,177,101.5,White,SICU,Emergency,0,0,0,0,1,12,0,,0
+P100449,62,F,167,49.3,White,Neuro ICU,Emergency,0,1,0,0,0,12,0,,0
+P100450,70,M,161,66.3,White,SICU,Elective,0,1,0,0,0,118,0,,0
+P100451,82,F,161,59.2,White,CCU,Urgent,0,1,0,0,0,116,0,,0
+P100452,90,F,154,84.8,White,CCU,Urgent,0,0,1,0,0,140,0,,0
+P100453,67,M,172,58.9,Other/Unknown,Mixed ICU,Emergency,0,1,1,1,0,71,0,,0
+P100454,72,M,169,107.5,White,SICU,Emergency,0,0,1,0,0,25,0,,0
+P100455,42,M,166,76.6,White,MICU,Elective,0,0,0,0,0,57,0,,0
+P100456,61,F,145,44.2,White,MICU,Elective,0,1,0,0,0,72,1,33.0,0
+P100457,78,M,158,59.8,White,SICU,Emergency,0,1,0,0,0,36,0,,0
+P100458,77,F,181,76.0,Hispanic/Latino,MICU,Emergency,0,0,0,1,0,131,1,26.0,0
+P100459,66,F,163,54.1,White,MICU,Elective,0,0,0,1,0,153,1,13.0,1
+P100460,77,F,174,86.5,Hispanic/Latino,MICU,Emergency,0,0,0,1,0,89,0,,0
+P100461,70,M,156,50.2,Hispanic/Latino,SICU,Elective,0,0,0,0,0,72,0,,0
+P100462,82,F,184,54.2,White,MICU,Emergency,1,1,1,0,1,25,0,,0
+P100463,67,M,169,73.5,Black,SICU,Emergency,1,1,0,0,0,128,1,9.0,0
+P100464,56,F,173,51.4,Other/Unknown,Neuro ICU,Emergency,1,0,0,0,0,75,0,,0
+P100465,68,F,193,87.5,White,Neuro ICU,Emergency,0,1,1,0,0,62,0,,0
+P100466,18,F,185,77.2,White,MICU,Urgent,0,1,0,0,1,89,1,20.0,0
+P100467,69,F,167,63.5,Other/Unknown,SICU,Emergency,0,0,0,0,0,51,0,,1
+P100468,18,M,164,107.6,Other/Unknown,SICU,Emergency,0,0,0,0,0,77,1,20.0,0
+P100469,33,M,167,79.0,White,SICU,Elective,0,0,0,0,0,20,0,,0
+P100470,70,M,175,90.3,Black,SICU,Elective,0,0,0,1,0,111,0,,0
+P100471,70,M,169,49.5,White,MICU,Elective,0,0,0,0,0,68,0,,0
+P100472,42,M,166,66.3,Hispanic/Latino,Mixed ICU,Emergency,0,1,0,0,0,114,0,,0
+P100473,50,M,185,100.3,White,MICU,Urgent,0,1,0,0,0,65,0,,0
+P100474,85,M,169,62.4,White,Neuro ICU,Emergency,1,1,0,0,0,67,1,16.0,1
+P100475,54,M,193,124.6,Asian,SICU,Emergency,0,0,0,0,0,28,0,,0
+P100476,90,M,171,60.8,Other/Unknown,MICU,Emergency,1,0,1,0,0,99,0,,0
+P100477,62,F,188,92.9,Hispanic/Latino,CCU,Emergency,0,0,0,0,0,40,1,9.0,0
+P100478,69,F,174,74.1,White,MICU,Elective,0,0,0,1,0,54,0,,0
+P100479,89,M,180,93.9,White,CCU,Emergency,0,1,0,0,0,72,0,,1
+P100480,64,M,163,64.2,Other/Unknown,SICU,Emergency,0,0,0,0,0,76,1,9.0,0
+P100481,45,M,161,68.4,Other/Unknown,MICU,Elective,0,0,0,0,0,12,0,,0
+P100482,60,F,175,81.4,White,MICU,Emergency,0,1,0,0,0,64,0,,0
+P100483,61,M,180,76.4,Black,CCU,Emergency,0,0,0,0,0,101,0,,0
+P100484,39,M,170,89.3,White,MICU,Urgent,0,0,0,0,0,58,0,,0
+P100485,58,M,157,72.5,White,Mixed ICU,Elective,0,0,0,0,0,64,0,,0
+P100486,49,M,156,66.8,White,CCU,Urgent,1,1,0,0,0,78,0,,0
+P100487,78,M,156,61.9,White,CCU,Urgent,0,1,0,0,0,67,0,,0
+P100488,63,F,152,75.7,White,MICU,Urgent,0,0,0,0,0,35,0,,0
+P100489,57,F,171,77.7,Hispanic/Latino,CCU,Elective,0,0,0,1,0,71,0,,0
+P100490,60,F,181,85.7,White,Mixed ICU,Emergency,0,0,0,0,0,108,0,,0
+P100491,66,F,170,82.7,White,MICU,Emergency,0,0,0,0,0,34,0,,0
+P100492,72,F,147,82.5,White,MICU,Emergency,0,1,0,0,0,59,0,,0
+P100493,45,M,168,56.3,White,MICU,Elective,0,0,0,0,1,22,0,,1
+P100494,44,F,168,92.1,White,MICU,Emergency,0,0,1,0,1,106,1,22.0,0
+P100495,81,M,191,60.7,Black,CCU,Urgent,0,1,1,0,0,69,0,,1
+P100496,55,M,155,70.4,White,SICU,Emergency,0,1,1,0,0,41,0,,0
+P100497,38,F,166,103.2,Black,SICU,Emergency,1,1,0,0,0,75,0,,0
+P100498,70,M,187,108.2,Other/Unknown,MICU,Emergency,1,1,0,0,0,29,0,,0
+P100499,70,M,174,87.9,White,MICU,Emergency,1,1,0,1,0,35,1,35.0,1
